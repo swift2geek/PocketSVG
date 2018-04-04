@@ -2,6 +2,8 @@ language: objective-c
 env:
   global:
     IPHONE6SIM="platform=iOS Simulator,name=iPhone 6,OS=11.2"
+script:
+  - xcodebuild -version
 
 ## build iOS framework:
 xcodebuild \
