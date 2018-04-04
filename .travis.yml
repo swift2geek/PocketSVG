@@ -5,36 +5,36 @@ env:
     IPHONE6SIM="platform=iOS Simulator,name=iPhone 6,OS=11.2"
 script:
   ## build iOS framework:
-  - xcodebuild \
+  - "xcodebuild \
     -project PocketSVG.xcodeproj \
     -scheme "PocketSVG (iOS)" \
     -destination "$IPHONE6SIM" \
-    clean build
+    clean build"
 
   ## build macOS framework:
-  - xcodebuild \
+  - "xcodebuild \
     -project PocketSVG.xcodeproj \
     -scheme "PocketSVG (Mac)" \
     -destination "arch=x86_64" \
-    clean build
+    clean build"
 
   ## build iOS demo:
-  - xcodebuild \
+  - "xcodebuild \
     -workspace Demos/Demos.xcworkspace \
     -destination "$IPHONE6SIM" \
     -scheme Demo-iOS \
-    clean build
+    clean build"
 
   ##build macOS demo:
-  - xcodebuild \
+  - "xcodebuild \
     -workspace Demos/Demos.xcworkspace \
     -destination "arch=x86_64" \
     -scheme Demo-macOS \
-    clean build
+    clean build"
 
   ## run tests:
-  - xcodebuild \
+  - "xcodebuild \
     -project PocketSVG.xcodeproj \
     -scheme PocketSVGTests \
     -destination "$IPHONE6SIM" \
-    test
+    test"
