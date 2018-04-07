@@ -11,8 +11,8 @@ All notable changes to this project will be documented in this file. Items under
 ## [2.4.0]
 ### New Features
 - Add support for named SVG colors. Jonnie Walker [#119](https://github.com/pocketsvg/PocketSVG/pull/119)
-- Add CHANGELOG. Ariel Elkin.
-- Update iOS Demo projects. Ariel Elkin.
+- Add CHANGELOG. Ariel Elkin [feafc5fb9142a9e7f28581f9bd464636bad614cb](https://github.com/pocketsvg/PocketSVG/commit/feafc5fb9142a9e7f28581f9bd464636bad614cb)
+- Update iOS Demo projects. Ariel Elkin [feafc5fb9142a9e7f28581f9bd464636bad614cb](https://github.com/pocketsvg/PocketSVG/commit/feafc5fb9142a9e7f28581f9bd464636bad614cb)
 
 ### Fixes
 - Apply nested transformations in the correct order. Scott Talbot [#117](https://github.com/pocketsvg/PocketSVG/pull/117)
@@ -120,7 +120,7 @@ Changes by Ariel Elkin unless otherwise specified.
 - Substituted CC license with MIT license.
 
 
-
+[Unreleased]: https://github.com/pocketsvg/PocketSVG/compare/2.4.0...HEAD
 [2.4.0]: https://github.com/pocketsvg/PocketSVG/compare/2.3.1...2.4.0
 [2.3.1]: https://github.com/pocketsvg/PocketSVG/compare/2.3.0...2.3.1
 [2.3.0]: https://github.com/pocketsvg/PocketSVG/compare/2.2.1...2.3.0
