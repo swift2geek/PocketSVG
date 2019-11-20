@@ -1,0 +1,5 @@
+module Clibxml [system] {
+  header "/usr/include/libxml2/xmlreader.h"
+  link "libxml2"
+  export *
+}

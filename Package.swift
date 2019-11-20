@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "PocketSVG", targets: ["PocketSVG"]),
     ],
     targets: [
-        .target(name: "PocketSVG", dependencies: [], path: "Sources"),
+        .target(name: "PocketSVG", dependencies: ["../Clibxml"], path: "Sources"),
         .testTarget(name: "PocketSVGTests", dependencies: ["PocketSVG"], path: "PocketSVGTests"),
     ]
 )
