@@ -61,16 +61,16 @@
 		B0EEE21B1D6C6A4300BCAF68 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C79800BB1A21CB5300380860 /* PocketSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PocketSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79800BF1A21CB5300380860 /* Framework-Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Framework-Info-iOS.plist"; sourceTree = "<group>"; };
-		C79800D91A21CB9A00380860 /* SVGLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGLayer.h; sourceTree = SOURCE_ROOT; };
-		C79800DA1A21CB9A00380860 /* SVGLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGLayer.m; sourceTree = SOURCE_ROOT; };
-		C79800DB1A21CB9A00380860 /* SVGEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGEngine.h; sourceTree = SOURCE_ROOT; };
-		C79800DC1A21CB9A00380860 /* SVGEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVGEngine.mm; sourceTree = SOURCE_ROOT; };
-		C79800DD1A21CB9A00380860 /* SVGPortability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGPortability.h; sourceTree = SOURCE_ROOT; };
+		C79800D91A21CB9A00380860 /* SVGLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGLayer.h; path = Sources/SVGLayer.h; sourceTree = SOURCE_ROOT; };
+		C79800DA1A21CB9A00380860 /* SVGLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGLayer.m; path = Sources/SVGLayer.m; sourceTree = SOURCE_ROOT; };
+		C79800DB1A21CB9A00380860 /* SVGEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGEngine.h; path = Sources/SVGEngine.h; sourceTree = SOURCE_ROOT; };
+		C79800DC1A21CB9A00380860 /* SVGEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SVGEngine.mm; path = Sources/SVGEngine.mm; sourceTree = SOURCE_ROOT; };
+		C79800DD1A21CB9A00380860 /* SVGPortability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPortability.h; path = Sources/SVGPortability.h; sourceTree = SOURCE_ROOT; };
 		C79800E51A21CBB900380860 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		C79800F51A21CDFD00380860 /* PocketSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PocketSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C798011B1A21CEC200380860 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
-		C79801271A21F13E00380860 /* SVGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGImageView.h; sourceTree = SOURCE_ROOT; };
-		C798012D1A21F35C00380860 /* SVGImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGImageView.m; sourceTree = SOURCE_ROOT; };
+		C79801271A21F13E00380860 /* SVGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGImageView.h; path = Sources/SVGImageView.h; sourceTree = SOURCE_ROOT; };
+		C798012D1A21F35C00380860 /* SVGImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGImageView.m; path = Sources/SVGImageView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,16 +115,7 @@
 		C79800B11A21CB5300380860 = {
 			isa = PBXGroup;
 			children = (
-				B0EEE2181D6C680400BCAF68 /* PocketSVG.h */,
-				C79801271A21F13E00380860 /* SVGImageView.h */,
-				C798012D1A21F35C00380860 /* SVGImageView.m */,
-				C79800D91A21CB9A00380860 /* SVGLayer.h */,
-				C79800DA1A21CB9A00380860 /* SVGLayer.m */,
-				1DC5ADD11CC9B17A008FDA98 /* SVGBezierPath.h */,
-				1DC5ADD21CC9B17A008FDA98 /* SVGBezierPath.mm */,
-				C79800DD1A21CB9A00380860 /* SVGPortability.h */,
-				C79800DB1A21CB9A00380860 /* SVGEngine.h */,
-				C79800DC1A21CB9A00380860 /* SVGEngine.mm */,
+				D209F04823853C1B009C87BD /* Sources */,
 				C79800BE1A21CB5300380860 /* Supporting Files */,
 				B0B5922C20752E980009ECA2 /* PocketSVGTests */,
 				C79800BC1A21CB5300380860 /* Products */,
@@ -153,6 +144,23 @@
 			);
 			name = "Supporting Files";
 			path = SVGPathSerializing;
+			sourceTree = "<group>";
+		};
+		D209F04823853C1B009C87BD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B0EEE2181D6C680400BCAF68 /* PocketSVG.h */,
+				C79801271A21F13E00380860 /* SVGImageView.h */,
+				C798012D1A21F35C00380860 /* SVGImageView.m */,
+				C79800D91A21CB9A00380860 /* SVGLayer.h */,
+				C79800DA1A21CB9A00380860 /* SVGLayer.m */,
+				1DC5ADD11CC9B17A008FDA98 /* SVGBezierPath.h */,
+				1DC5ADD21CC9B17A008FDA98 /* SVGBezierPath.mm */,
+				C79800DD1A21CB9A00380860 /* SVGPortability.h */,
+				C79800DB1A21CB9A00380860 /* SVGEngine.h */,
+				C79800DC1A21CB9A00380860 /* SVGEngine.mm */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
