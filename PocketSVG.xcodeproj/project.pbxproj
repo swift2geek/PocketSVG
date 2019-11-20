@@ -116,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				D209F04823853C1B009C87BD /* Sources */,
-				C79800BE1A21CB5300380860 /* Supporting Files */,
 				B0B5922C20752E980009ECA2 /* PocketSVGTests */,
 				C79800BC1A21CB5300380860 /* Products */,
 				B0EEE21B1D6C6A4300BCAF68 /* README.md */,
@@ -143,7 +142,7 @@
 				C79800BF1A21CB5300380860 /* Framework-Info-iOS.plist */,
 			);
 			name = "Supporting Files";
-			path = SVGPathSerializing;
+			path = ../SVGPathSerializing;
 			sourceTree = "<group>";
 		};
 		D209F04823853C1B009C87BD /* Sources */ = {
@@ -159,6 +158,7 @@
 				C79800DD1A21CB9A00380860 /* SVGPortability.h */,
 				C79800DB1A21CB9A00380860 /* SVGEngine.h */,
 				C79800DC1A21CB9A00380860 /* SVGEngine.mm */,
+				C79800BE1A21CB5300380860 /* Supporting Files */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
