@@ -8,6 +8,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "PocketSVG", dependencies: [], path: "Sources"),
-        .testTarget(name: "PocketSVGTests", dependencies: ["PocketSVG"], path: "Tests"),
+        .testTarget(name: "PocketSVGTests", dependencies: ["PocketSVG"], path: "PocketSVGTests"),
     ]
 )
